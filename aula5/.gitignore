@@ -1,0 +1,9 @@
+
+# pastas pycache
+__pycache__
+
+# Virtualenv do python
+env
+
+# dotenv
+.env
