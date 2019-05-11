@@ -18,4 +18,16 @@ novo_usuario = cadastrar_usuario()
 print(novo_usuario)
 
 d = novo_usuario['data_do_cadastro']
-print(d.strftime('%B %d,%Y'))
+print(d.strftime('São Paulo, %d de %B de %Y))
+
+'''
+probabilidade = random.random()
+if probabilidade < 0.8:
+	cadastrar_usuario()
+else:
+	print('Opa, não deu sorte...')
+exit()
+
+#uma das utilidades do módulo random
+#não esquecer de importar nas primeiras linhas do código
+'''
